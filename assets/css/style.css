@@ -1076,6 +1076,8 @@ html {
     margin: 40px;
 }
 
+
+#sobre .tag,
 #projetos .tag,
 #servicos .tag,
 #blog .tag,
@@ -1171,7 +1173,7 @@ html {
     margin: 0 20px;
     border-radius: 20px;
     padding: 25px;
-    box-shadow: 0px 1px 1px rgba(0, 4, 4, 0.1);
+    box-shadow: 0px 2px 8px rgba(0, 4, 4, 0.1);
     text-decoration: none;
 }
 
@@ -1367,7 +1369,6 @@ footer .atendimento .redes .rede:hover{
         width: 90%;
         left: 0;
         top: 40;
-
     } 
 
     #home .imagem{
@@ -1478,12 +1479,18 @@ footer .atendimento .redes .rede:hover{
         height: auto;
     }
 
-    #home,#sobre,#servicos,#projetos,#blog,#contato{
+    #home,
+    #home .imagem{
+        margin: 0;
+    }
+    
+    #sobre,#servicos,#projetos,#blog,#contato{
         margin-top: 50px;
     }
 
     footer{
         flex-direction: column;
+        padding: 30px;
     }
 
     footer .copy,
@@ -1517,8 +1524,10 @@ footer .atendimento .redes .rede:hover{
 
     #projetos .projetos .projetos_principais .projeto,
     #blog .posts .posts_principais .post{
-        width: 272px;
+        width: 270px;
         height: 350px;
+        padding: 20px;
+        margin: 15px 20px;
     }
 
     #projetos .projetos .projetos_principais .projeto .imagem img,
@@ -1544,6 +1553,27 @@ footer .atendimento .redes .rede:hover{
     #sobre .bloco .imagem img{
         width: 250px;
         left: 0;
+    }
+
+    #servicos .titulo_sessao h2,
+    #blog .titulo_sessao h2,
+    #projetos .titulo_sessao h2{
+        font-size: 23px;
+    }
+
+    #servicos .titulo_sessao,
+    #blog .titulo_sessao,
+    #projetos .titulo_sessao{
+        margin-bottom: 5px;
+    }
+
+    #projetos .filtros_conjunto .botao_conjunto{
+        display: flex;
+        cursor: pointer;
+    }
+
+    #projetos .filtros_conjunto .filtros{
+        display: none;
     }
 
 }
