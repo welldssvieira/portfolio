@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site oficial da Syncro Horizon, Startup focada em inovação e tecnologia.">
+    <meta name="author" content="Wellington dos Santos Vieira">
+    <meta name="keywords"
+        content="syncrohorizon, Syncro Horizon, Syncro, Wellington Dos Santos Vieira, welldssvieira, Startup, Desenvolvimento, WebDesign, Front End, Back End, Full Stack, Portfólio, Engenheiro de Software, Engenharia de Software, Social Media, Minimalismo">
+    <link rel="shortcut icon" href="media/header/Icone_branco.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Syncro Horizon</title>
+</head>
+
+<body>
+
+    <header id="cabecalho">
+        <section id="menu_desktop">
+            <a href="#home" id="logomarca" title="Voltar a página inicial.">
+                <img src="media/header/Logomarca.png" alt="Logomarca Syncro Horizon.">
+            </a>
+            <nav id="navegacao">
+                <ul class="links">
+                    <a href="#home" class="link" title="Acessar Página inicial.">
+                        <div class="icone">
+                            <img src="media/header/Icon_casa.png" alt="Icone home.">
+                        </div>
+                        <div class="texto">
+                            <p>Home</p>
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </a>
+                    <a href="#sobre" class="link" title="Acessar sessão Sobre.">
+                        <div class="icone">
+                            <img src="media/header/Icon_usuario (2).png" alt="Icone usuário.">
+                        </div>
+                        <div class="texto">
+                            <p>Sobre</p>
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </a>
+                    <a href="#servicos" class="link" title="Conhecer serviços.">
+                        <div class="icone">
+                            <img src="media/header/Icon_cifrao (2).png" alt="Icone Serviços.">
+                        </div>
+                        <div class="texto">
+                            <p>Serviços</p>
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </a>
+                    <a href="#projetos" class="link" title="Visualizar projetos.">
+                        <div class="icone">
+                            <img src="media/header/Icon_codigo.png" alt="Icone projetos.">
+                        </div>
+                        <div class="texto">
+                            <p>Projetos</p>
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </a>
+                    <a href="#blog" class="link" title="Leia nosso Blog.">
+                        <div class="icone">
+                            <img src="media/header/Icon_documento (4).png" alt="Icone Blog.">
+                        </div>
+                        <div class="texto">
+                            <p>Blog</p>
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </a>
+                </ul>
+            </nav>
+            <div class="idiomas" title="Mudar idioma.">
+                <div class="bandeira">
+                    <img src="media/header/Icon_bandeiraBrasil.png" alt="Bandeira - Brasil (PT-BR)">
+                </div>
+                <div class="idioma">
+                    <p>Português</p>
+                </div>
+                <div class="seta">
+                    <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                </div>
+            </div>
+            <div class="demais_idiomas">
+                <div class="idioma_portugues">
+                    <div class="bandeira">
+                        <img src="media/header/Icon_bandeiraBrasil.png" alt="Bandeira - Brasil (PT-BR)">
+                    </div>
+                    <div class="idioma">
+                        <p>Português</p>
+                    </div>
+                </div>
+                <div class="idioma_ingles">
+                    <div class="bandeira">
+                        <img src="media/header/Icon_bandeiraUsa.png" alt="Bandeira - Estados Unidos">
+                    </div>
+                    <div class="idioma">
+                        <p>English</p>
+                    </div>
+                </div>
+                <div class="idioma_espanhol">
+                    <div class="bandeira">
+                        <img src="media/header/Icon_bandeiraEspanha.png" alt="Bandeira - Espanha.">
+                    </div>
+                    <div class="idioma">
+                        <p>Español</p>
+                    </div>
+                </div>
+                <div class="idioma_frances">
+                    <div class="bandeira">
+                        <img src="media/header/Icon_bandeiraFranca.png" alt="Bandeira - França.">
+                    </div>
+                    <div class="idioma">
+                        <p>Francês</p>
+                    </div>
+                </div>
+            </div>
+            <div class="botao_contato" title="Clique para entrar em contato.">
+                <a href="#">Contato</a>
+            </div>
+        </section>
+
+        <section id="menu_mobile">
+            <div class="cabecalho_principal">
+                <div id="logomarca" title="Voltar a página inicial.">
+                    <img src="media/header/Logomarca.png" alt="Logomarca Syncro Horizon.">
+                </div>
+
+                <div class="funcoes">
+                    <div class="idiomas" title="Mudar idioma.">
+                        <div class="bandeira">
+                            <img src="media/header/Icon_bandeiraBrasil.png" alt="Bandeira - Brasil (PT-BR)">
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </div>
+                    <div class="botoes">
+                        <a href="#" class="botao_abrir">
+                            <img src="media/header/Icon_abrir.png" alt="Icone botão abrir.">
+                        </a>
+                        <a href="#" class="botao_fechar">
+                            <img src="media/header/Icon_fechar.png" alt="Icone botão fechar.">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <nav id="navegacao">
+                <ul class="links">
+                    <a href="#" class="link" title="Acessar Página inicial.">
+                        <div class="icone">
+                            <img src="media/header/Icon_casa.png" alt="Icone home.">
+                        </div>
+                        <div class="texto">
+                            <p>Home</p>
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </a>
+                    <a href="#" class="link" title="Acessar sessão Sobre.">
+                        <div class="icone">
+                            <img src="media/header/Icon_usuario (2).png" alt="Icone usuário.">
+                        </div>
+                        <div class="texto">
+                            <p>Sobre</p>
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </a>
+                    <a href="#" class="link" title="Visualizar projetos.">
+                        <div class="icone">
+                            <img src="media/header/Icon_codigo.png" alt="Icone projetos.">
+                        </div>
+                        <div class="texto">
+                            <p>Projetos</p>
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </a>
+                    <a href="#" class="link" title="Conhecer serviços.">
+                        <div class="icone">
+                            <img src="media/header/Icon_cifrao (2).png" alt="Icone Serviços.">
+                        </div>
+                        <div class="texto">
+                            <p>Serviços</p>
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </a>
+                    <a href="#" class="link" title="Leia nosso Blog.">
+                        <div class="icone">
+                            <img src="media/header/Icon_documento (4).png" alt="Icone Blog.">
+                        </div>
+                        <div class="texto">
+                            <p>Blog</p>
+                        </div>
+                        <div class="seta">
+                            <img src="media/header/Icon_seta.png" alt="Seta de abertura do menu.">
+                        </div>
+                    </a>
+                </ul>
+            </nav>
+
+            <div class="demais_idiomas">
+                <div class="idioma_portugues">
+                    <div class="bandeira">
+                        <img src="media/header/Icon_bandeiraBrasil.png" alt="Bandeira - Brasil (PT-BR)">
+                    </div>
+                    <div class="idioma">
+                        <p>Português</p>
+                    </div>
+                </div>
+                <div class="idioma_ingles">
+                    <div class="bandeira">
+                        <img src="media/header/Icon_bandeiraUsa.png" alt="Bandeira - Estados Unidos">
+                    </div>
+                    <div class="idioma">
+                        <p>English</p>
+                    </div>
+                </div>
+                <div class="idioma_espanhol">
+                    <div class="bandeira">
+                        <img src="media/header/Icon_bandeiraEspanha.png" alt="Bandeira - Espanha.">
+                    </div>
+                    <div class="idioma">
+                        <p>Español</p>
+                    </div>
+                </div>
+                <div class="idioma_frances">
+                    <div class="bandeira">
+                        <img src="media/header/Icon_bandeiraFranca.png" alt="Bandeira - França.">
+                    </div>
+                    <div class="idioma">
+                        <p>Francês</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main id="home" data-aos="fade-bottom">
+        <section class="conteudo">
+            <div class="apresentacao">
+                <Strong>Prazer, Wellington Dos Santos !</Strong>
+            </div>
+            <div class="frase">
+                <h1>Engenheiro de Software e Designer UX/UI.</h1>
+            </div>
+            <div class="paragrafo">
+                <p>Te ajudo a simplificar problemas usando a tecnologia. Com minha experiência, simplifico desafios
+                    complexos em soluções digitais eficientes e fáceis de usar.</p>
+            </div>
+            <div class="cta">
+                <p><b>Se você quer resultados práticos e inovadores,</b><strong> agende uma reunião !</strong></p>
+            </div>
+            <div class="botoes">
+                <div class="botao_agendarReuniao" title="Clique para agendar uma reunião.">
+                    <a  href="#">
+                        <div class="icone_agendar">
+                            <img src="media/home/Icon_agendar.png" alt="Icone_agendar">
+                        </div>
+                        <div class="texto">
+                            <p>Agendar</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="botao_verProjetos" title="Clique para visualizar meus projetos.">
+                    <a  href="#">
+                        <div class="icone_verProjetos">
+                            <img src="media/home/Icon_codigo.png" alt="Icone_verProjetos">
+                        </div>
+                        <div class="texto">
+                            <p>Projetos</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="imagem">
+            <img src="media/home/imagem_principal.png" alt="Imagem principal, Wellington."
+                title="Fundador da Syncro Horizon, Engenheiro de Software Wellington Dos Santo Vieira">
+        </section>
+    </main>
+
+    <section id="sobre" data-aos="zoom-in-up">
+        <div class="bloco">
+            <div class="imagem">
+                <img src="media/sobre/imagemIlustrativa.png" alt="Imagem ilustrativa." title="Imagem ilustrativa.">
+            </div>
+            <div class="conteudo">
+                <div class="tag">
+                    <p>Quem sou</p>
+                </div>
+                <div class="nome">
+                    <h2>Wellington Dos Santos</h2>
+                </div>
+                <div class="formacao">
+                    <h3>Engenheiro de Software e Designer UX/UI.</h3>
+                </div>
+                <div class="paragrafo um">
+                    <p>
+                        Sou um <span>Engenheiro de software de 22 anos </span>, apaixonado por tecnologia e guiado pela
+                        curiosidade digital. Ao longo da minha jornada, explorei conceitos inovadores e tecnologias
+                        avançadas, moldando minha expertise profissional.
+                    </p>
+                </div>
+                <div class="paragrafo dois">
+                    <p>
+                        <span>Foco na criação de interfaces modernas e minimalistas</span>, sempre priorizando a
+                        usabilidade e a experiência do usuário.<span>Trabalho com HTML, CSS, JavaScript, Bootstrap e
+                            Node.js, Git e Git Hub , utilizando o VS Code como minha IDE preferida.</span>
+                    </p>
+                </div>
+                <div class="redes">
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <div class="rede" title="Clique para acessar LinkedIn">
+                            <img src="media/sobre/Icon_linkedin.png" alt="Icon_linkedin">
+                        </div>
+                    </a>
+                    <a href="https://www.github.com" target="_blank">
+                        <div class="rede" title="Clique para acessar GitHub">
+                            <img src="media/sobre/Icon_github.png" alt="Icon_github">
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <div class="rede" title="Clique para acessar Instagram">
+                            <img src="media/sobre/Icon_instagram.png" alt="Icon_instagram">
+                        </div>
+                    </a>
+                    <a href="https://www.pinterest.com" target="_blank">
+                        <div class="rede" title="Clique para acessar Pinterest">
+                            <img src="media/sobre/Icon_pinterest.png" alt="Icon_pinterest">
+                        </div>
+                    </a>
+                    <a href="https://www.tiktok.com" target="_blank">
+                        <div class="rede" title="Clique para acessar TikTok">
+                            <img src="media/sobre/Icon_tiktok.png" alt="Icon_tiktok">
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <div class="rede" title="Clique para acessar YouTube">
+                            <img src="media/sobre/Icon_youtube.png" alt="Icon_youtube">
+                        </div>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <div class="rede" title="Clique para acessar X">
+                            <img src="media/sobre/Icon_x.png" alt="Icon_x">
+                        </div>
+                    </a>
+                    <a href="https://www.whatsapp.com" target="_blank">
+                        <div class="rede" title="Clique para acessar WhatsApp">
+                            <img src="media/sobre/Icon_whatsapp.png" alt="Icon_whatsapp">
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" data-aos="zoom-in-up">
+        <div class="tag">
+            <p>Serviços</p>
+        </div>
+        <div class="titulo_sessao">
+            <h2>Desenvolvimento de software de <span> alta performance.</span></h2>
+        </div>
+        <div class="subtitulo_servico">
+            <p>Soluções eficientes para problemas complexos, desde o conceito a programação.</p>
+        </div>
+        <div class="servicos">
+            <div class="servicos_principais">
+                <div class="servico">
+                    <div class="icone_servico">
+                        <img src="media/servicos/desenvolvimento_web.png" alt="Icone Desenvolvimento web.">
+                    </div>
+                    <div class="titulo_servico">
+                        <h3>Desenvolvimento web</h3>
+                    </div>
+                    <div class="descricao_servico">
+                        <p>Aplicativos web personalizados que cativam usuários e impulsionam seu negócio.</p>
+                    </div>
+                </div>
+                <div class="servico">
+                    <div class="icone_servico">
+                        <img src="media/servicos/desenvolvimento_mobile.png" alt="Icone Desenvolvimento mobile.">
+                    </div>
+                    <div class="titulo_servico">
+                        <h3>Desenvolvimento mobile</h3>
+                    </div>
+                    <div class="descricao_servico">
+                        <p>Se destaque da concorrência e ofereça novas experiências aos seus clientes.</p>
+                    </div>
+                </div>
+                <div class="servico">
+                    <div class="icone_servico">
+                        <img src="media/servicos/ui_design.png" alt="Icone UI Design.">
+                    </div>
+                    <div class="titulo_servico">
+                        <h3>Design de Interfaces (UI)</h3>
+                    </div>
+                    <div class="descricao_servico">
+                        <p>Interfaces intuitivas e atraentes que elevam sua marca e proporcionam experiências
+                            memoráveis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="servicos_secundarios">
+                <!-- Conteúdo dos serviços secundários -->
+            </div>
+        </div>
+        <div class="botao" title="Clique para visualizar todos os serviços.">
+            <a href="#">Todos os serviços</a>
+        </div>
+    </section>
+
+    <section id="projetos" data-aos="zoom-in-up">
+        <div class="bloco">
+            <div class="tag">
+                <p>Projetos</p>
+            </div>
+
+            <div class="titulo_sessao">
+                <h2><span>Inovação e Desenvolvimento </span> em ação !</h2>
+            </div>
+
+            <div class="subtitulo_servico">
+                <p>Veja como minhas soluções digitais redefinem experiências com o uso de usabilidade e
+                    programação.</p>
+            </div>
+
+            <div class="filtros_conjunto">
+                <div class="cabecalho_conjunto">
+                    <div class="titulo_conjunto">
+                        <p>Filtros</p>
+                    </div>
+                    <div class="botao_conjunto">
+                        <img src="media/header/Icon_abrir.png" alt="">
+                    </div>
+                </div>
+                <div class="filtros">
+                    <a href="#" class="filtro sites" title="Visulize apenas Sites.">
+                        <div class="icone_filtro">
+                            <img src="media/projetos/Icon_globo-(2).png" alt="">
+                        </div>
+                        <div class="descricao_filtro">
+                            <div class="nome_filtro">
+                                <h4>WebSites</h4>
+                            </div>
+                            <div class="quantidade">
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="filtro aplicativos" title="Visulize apenas Aplicativos.">
+                        <div class="icone_filtro">
+                            <img src="media/projetos/Icon_android.png" alt="">
+                        </div>
+                        <div class="descricao_filtro">
+                            <div class="nome_filtro">
+                                <h4>Aplicativos</h4>
+                            </div>
+                            <div class="quantidade">
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="filtro algoritmos" title="Visulize apenas Algoritmos.">
+                        <div class="icone_filtro">
+                            <img src="media/projetos/Icon_heart.png" alt="">
+                        </div>
+                        <div class="descricao_filtro">
+                            <div class="nome_filtro">
+                                <h4>Algoritmos</h4>
+                            </div>
+                            <div class="quantidade">
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="filtro uidesign" title="Visulize apenas UI design.">
+                        <div class="icone_filtro">
+                            <img src="media/projetos/Icon_send.png" alt="">
+                        </div>
+                        <div class="descricao_filtro">
+                            <div class="nome_filtro">
+                                <h4>UI Design</h4>
+                            </div>
+                            <div class="quantidade">
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="filtro clones" title="Visulize apenas Clones.">
+                        <div class="icone_filtro">
+                            <img src="media/projetos/Icon_abc.png" alt="">
+                        </div>
+                        <div class="descricao_filtro">
+                            <div class="nome_filtro">
+                                <h4>Clones</h4>
+                            </div>
+                            <div class="quantidade">
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="projetos">
+                <div class="projetos_principais">
+                    <div class="projeto">
+                        <div class="imagem">
+                            <img src="media/projetos/Captura de Tela (184).png" alt="Capa do projeto">
+                        </div>
+                        <div class="titulo">
+                            <h2>Titulo</h2>
+                        </div>
+                        <div class="descricao">
+                            <p>loren</p>
+                        </div>
+                        <div class="hashtags">
+                            <div class="hashtag">
+                                <p>Hashtag</p>
+                            </div>
+                        </div>
+                        <div class="botoes">
+                            <div class="botao_deploy">
+                                <a href="#">
+                                    <div class="icone_botao">
+                                        <img src="media/projetos/Icon_olho.png" alt=" Icone de deploy.">
+                                    </div>
+                                    <div class="texto_botao">
+                                        <p>Deploy</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="botao_codigo">
+                                <a href="#">
+                                    <div class="icone_botao">
+                                        <img src="media/projetos/Icon_github.png" alt="Icone do Github">
+                                    </div>
+                                    <div class="texto_botao">
+                                        <p>Código</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <div class="imagem">
+                            <img src="media/projetos/Captura de Tela (184).png" alt="Capa do projeto">
+                        </div>
+                        <div class="titulo">
+                            <h2>Titulo</h2>
+                        </div>
+                        <div class="descricao">
+                            <p>loren</p>
+                        </div>
+                        <div class="hashtags">
+                            <div class="hashtag">
+                                <p>Hashtag</p>
+                            </div>
+                        </div>
+                        <div class="botoes">
+                            <div class="botao_deploy">
+                                <a href="#">
+                                    <div class="icone_botao">
+                                        <img src="media/projetos/Icon_olho.png" alt=" Icone de deploy.">
+                                    </div>
+                                    <div class="texto_botao">
+                                        <p>Deploy</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="botao_codigo">
+                                <a href="#">
+                                    <div class="icone_botao">
+                                        <img src="media/projetos/Icon_github.png" alt="Icone do Github">
+                                    </div>
+                                    <div class="texto_botao">
+                                        <p>Código</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <div class="imagem">
+                            <img src="media/projetos/Captura de Tela (184).png" alt="Capa do projeto">
+                        </div>
+                        <div class="titulo">
+                            <h2>Titulo</h2>
+                        </div>
+                        <div class="descricao">
+                            <p>loren</p>
+                        </div>
+                        <div class="hashtags">
+                            <div class="hashtag">
+                                <p>Hashtag</p>
+                            </div>
+                        </div>
+                        <div class="botoes">
+                            <div class="botao_deploy">
+                                <a href="#">
+                                    <div class="icone_botao">
+                                        <img src="media/projetos/Icon_olho.png" alt=" Icone de deploy.">
+                                    </div>
+                                    <div class="texto_botao">
+                                        <p>Deploy</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="botao_codigo">
+                                <a href="#">
+                                    <div class="icone_botao">
+                                        <img src="media/projetos/Icon_olho.png" alt=" Icone de deploy.">
+                                    </div>
+                                    <div class="texto_botao">
+                                        <p>Código</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projetos_secumedia/projetos/Icon_github.pngndariosIcone do Github">
+
+                </div>
+            </div>
+
+            <div class="botao" title="Clique para visualizar todos os projetos.">
+                <a href="#">Todos os projetos</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="blog" data-aos="zoom-in-up">
+        <div class="tag">
+            <p>Blog</p>
+        </div>
+
+        <div class="titulo_sessao">
+            <h2><span>Inovação e Desenvolvimento </span> em ação !</h2>
+        </div>
+
+        <div class="subtitulo_servico">
+            <p>Veja como minhas soluções digitais redefinem experiências, com o uso de usabilidade, experiência e
+                programação.</p>
+        </div>
+
+        <div class="posts">
+    <div class="posts_principais">
+        <a href="#" class="post">
+            <div class="imagem">
+                <img src="media/projetos/Captura de Tela (184).png" alt="Capa do post">
+            </div>
+            <div class="titulo">
+                <h2>Titulo</h2>
+            </div>
+            <div class="descricao">
+                <p>Veja como minhas soluções digitais redefinem experiências, com o uso de usabilidade, experiência e programação.</p>
+            </div>
+            <div class="autor">
+                <p>Wellington Dos Santos</p>
+            </div>
+            <div class="hashtags">
+                <div class="hashtag">
+                    <p>Hashtag</p>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <div class="imagem">
+                <img src="media/projetos/Captura de Tela (184).png" alt="Capa do post">
+            </div>
+            <div class="titulo">
+                <h2>Titulo</h2>
+            </div>
+            <div class="descricao">
+                <p>Veja como minhas soluções digitais redefinem experiências, com o uso de usabilidade, experiência e programação.</p>
+            </div>
+            <div class="autor">
+                <p>Wellington Dos Santos</p>
+            </div>
+            <div class="hashtags">
+                <div class="hashtag">
+                    <p>Hashtag</p>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="post">
+            <div class="imagem">
+                <img src="media/projetos/Captura de Tela (184).png" alt="Capa do post">
+            </div>
+            <div class="titulo">
+                <h2>Titulo</h2>
+            </div>
+            <div class="descricao">
+                <p>Veja como minhas soluções digitais redefinem experiências, com o uso de usabilidade, experiência e
+                    programação.</p>
+            </div>
+            <div class="autor">
+                <p>Wellington Dos Santos</p>
+            </div>
+            <div class="hashtags">
+                <div class="hashtag">
+                    <p>Hashtag</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="posts_secundarios">
+        <!-- Conteúdo dos posts secundários -->
+    </div>
+</div>
+
+
+        <div class="botao" title="Clique para visualizar todos os posts.">
+            <a href="#">Todos os posts</a>
+        </div>
+    </section>
+
+    <section id="contato"></section>
+
+    <footer>
+        <div class="copy">
+            <a href="#home" class="logomarca">
+                <img src="media/footer/Logomarca.png" alt="Logomarca Syncro Horizon">
+            </a>
+            <div class="copyrigth">
+                <p>&copy Wellington Dos Santos Vieira - 2024 - Todos os direitos reservados. O conteúdo deste site é protegido por direitos autorais. Reprodução ou uso sem autorização prévia por escrito é proibido.</p>
+            </div>
+        </div>
+        <div class="aplicativos">
+            <div class="titulo">
+                <h3>APLICATIVOS</h3>
+            </div>
+            <a href="#" class="app">
+                <div class="app_icone">
+                    <img src="media/footer/logo_streamcine.png" alt="Logomarca do app.">
+                </div>
+                <div class="app_nome">
+                    <p>Stream Cine</p>
+                </div>
+            </a>
+            <a href="#" class="app">
+                <div class="app_icone">
+                    <img src="media/footer/logo_fitcheck.png" alt="Logomarca do app.">
+                </div>
+                <div class="app_nome">
+                    <p>Fit Check</p>
+                </div>
+            </a>
+            <a href="#" class="app">
+                <div class="app_icone">
+                    <img src="media/footer/Icon_lupa.png" alt="Logomarca do app.">
+                </div>
+                <div class="app_nome">
+                    <p>Busca Biz</p>
+                </div>
+            </a>
+        </div>
+        <div class="documentacao">
+            <div class="titulo">
+                <h3>DOCUMENTOS</h3>
+            </div>
+            <a href="#" class="doc">
+                <div class="doc_nome">
+                    <p>Termos de uso</p>
+                </div>
+            </a>
+            <a href="#" class="doc">
+                <div class="app_nome">
+                    <p>LGPD</p>
+                </div>
+            </a>
+        </div>
+        <div class="atendimento">
+            <div class="titulo">
+                <h3>ATENDIMENTO</h3>
+            </div>
+            <div class="email">
+                <a href="mailto:contato@syncrohorizon.com">contato@syncrohorizon.com</a>
+            </div>
+            <div class="titulo">
+                <h3>REDES SOCIAIS</h3>
+            </div>
+            <div class="redes">
+                <a href="#" class="rede" title="Clique para acessar o Whatsapp.">
+                    <img src="media/footer/icon_whatsapp.png" alt="Icone da rede.">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
