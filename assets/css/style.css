@@ -393,11 +393,11 @@ html {
     cursor: pointer;
 }
 
-#menu_mobile .botoes .botao_abrir img {
+#menu_mobile .botoes .botao_abrir {
     display: flex;
 }
 
-#menu_mobile .botoes .botao_fechar img {
+#menu_mobile .botoes .botao_fechar{
     display: none;
 }
 
@@ -1376,7 +1376,7 @@ footer .atendimento .redes .rede:hover{
     }
 
     #home .conteudo .apresentacao strong{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #home .conteudo .frase h1{
@@ -1386,7 +1386,7 @@ footer .atendimento .redes .rede:hover{
     #home .conteudo .paragrafo p,
     #home .conteudo .cta p b,
     #home .conteudo .cta strong{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     #home .imagem{
@@ -1424,7 +1424,7 @@ footer .atendimento .redes .rede:hover{
 
     #sobre .bloco .conteudo .paragrafo p,
     #sobre .bloco .conteudo .paragrafo span{
-        font-size: 11px;
+        font-size: 15px;
     }
 
     #sobre .bloco .conteudo .redes .rede img{
@@ -1436,7 +1436,7 @@ footer .atendimento .redes .rede:hover{
     }
 
     #sobre .bloco .conteudo .redes .rede{
-        margin: 10px 10px;
+        margin: 1px 1px;
     }
 
     #servicos .servicos,
@@ -1489,16 +1489,22 @@ footer .atendimento .redes .rede:hover{
     }
 
     footer{
-        flex-direction: column;
+        flex-wrap: wrap;
         padding: 30px;
     }
 
-    footer .copy,
+    footer .copy{
+        width: 100%;
+    }
     footer .aplicativos,
     footer .documentacao,
     footer .atendimento{
         margin: 20px 0;
-        width: 100%;
+        width: 50%;
+    }
+
+    footer .atendimento .email {
+        width: 180px;
     }
     #projetos .filtros_conjunto .filtros{
         display: flex;
